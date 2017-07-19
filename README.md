@@ -1,5 +1,5 @@
 # BottomPopupWindow
-仿网易底部弹出框。
+高仿网易严选底部弹出菜单
 =========
 #### 1.使用```BottomSheetDialog```或```PopupWindow```，它们的阴影背景是全覆盖的，这就造成除菜单内容View外的其他部分都是阴影；
 #### 2.```BottomPopupWindowView```继承```LinearLayout```，而```layout_bottom_popup.xml```是整个```BottomPopupWindowView```的骨架，然后在```BottomPopupWindowView```初始化时通过```addView()```加载整个骨架内容布局;
